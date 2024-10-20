@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.bing.com/th/id/OGC.3f8a1e3a84a968369e7b34009cfd6182?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fc5%2f9a%2fd2%2fc59ad2bd4ad2fbacd04017debc679ddb.gif&ehk=TZX3OHu9%2fsUej0ax%2b9PazI7%2bkQG%2fPkorjnUZxLNxQGk%3d);
+    background-size: cover;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: green
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #683206;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #144e17;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
